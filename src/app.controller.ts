@@ -23,7 +23,7 @@ export class AppController {
         data: shoppingData,
       };
     } catch (e) {
-      throw new HttpException("Could not get Past History", HttpStatus.INTERNAL_SERVER_ERROR)
+      throw new HttpException("Could not get shopping data", HttpStatus.INTERNAL_SERVER_ERROR)
     }
   }
 }
